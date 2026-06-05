@@ -11,9 +11,9 @@ import streamlit as st
 
 
 BASE_DATE = pd.Timestamp("2026-06-05")
-DATA_DIR = Path(__file__).parent / "data"
-SALES_FILE = DATA_DIR / "todas vendas 05.06.csv"
-CLIENTS_PDF = DATA_DIR / "Listagem de cliente livramento.pdf"
+PROJECT_DIR = Path(__file__).parent
+SALES_FILE = PROJECT_DIR / "todas vendas 05.06.csv"
+CLIENTS_PDF = PROJECT_DIR / "Listagem de cliente livramento.pdf"
 
 YELLOW = "#F6C400"
 BLACK = "#111111"
